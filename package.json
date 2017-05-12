@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-event-listeners",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A collection of event listeners for bootstrap",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/nwpray/bootstrap-event-listeners#readme",
   "dependencies": {
-    "es6-event-emitter" : "1.9.0"
+    "es6-event-emitter": "1.9.0"
   }
 }
