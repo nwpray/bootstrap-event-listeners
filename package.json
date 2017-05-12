@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nwpray/bootstrap-event-listeners/issues"
   },
-  "homepage": "https://github.com/nwpray/bootstrap-event-listeners#readme"
+  "homepage": "https://github.com/nwpray/bootstrap-event-listeners#readme",
+  "dependencies": {
+    "es6-event-emitter" : "1.9.0"
+  }
 }
