@@ -16,7 +16,7 @@ export class ColumnListener extends Emitter{
             1200: 'md'
         };
         this.windowListener = new WindowListener();
-        this.windowListener.onResize(this._onWindowResize);
+        this.windowListener.onResize(this._onWindowResize.bind(this));
     }
 
     _onWindowResize(){
