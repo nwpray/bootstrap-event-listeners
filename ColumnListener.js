@@ -1,5 +1,4 @@
 import Emitter from "es6-event-emitter";
-import {WindowListener} from './index';
 
 let EVENT_COLUMN_RESIZE = 'on.column.resize';
 let EVENT_WIDTH_CHECK = 'on.width.check';
@@ -15,8 +14,7 @@ export class ColumnListener extends Emitter{
             992: 'sm',
             1200: 'md'
         };
-        this.windowListener = new WindowListener();
-        this.windowListener.onResize(this._onWindowResize.bind(this));
+        window.addEventListener('resize', this._onWindowResize.bind(this));
     }
 
     _onWindowResize(){
