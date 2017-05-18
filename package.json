@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-event-listeners",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A collection of event listeners for bootstrap",
   "main": "index.js",
   "scripts": {
